@@ -1,3 +1,11 @@
 pipeline:
+  setup:
+    image: docker
+    commands:
+      - docker build --rm -t thunderstorm99/guacamole .
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
   build:
-    image: .
+    image: thunderstorm99/guacamole
+    commands:
+      - echo hallo
