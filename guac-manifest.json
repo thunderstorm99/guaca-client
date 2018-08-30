@@ -1,16 +1,7 @@
 {
-    "guacamoleVersion" : "*",
-    "name" : "Some meaningful, human-readable name",
-    "namespace" : "some-unique-namespace",
-
-    "css" : [
-        "css/login-override.css"
-    ],
-
-    "resources" : [
-        "resources/your-logo.png" : "image/png"
-    ],
-
+    "guacamoleVersion" : "0.9.8",
+    "name" : "TST-Theme",
+    "namespace" : "TST",
     "translations" : [
         "translations/en.json"
     ]
