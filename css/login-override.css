@@ -1,0 +1,3 @@
+.login-ui .login-dialog .logo {
+    background-image: url('app/ext/some-unique-namespace/resources/your-logo.png');
+}

@@ -1,0 +1,18 @@
+{
+    "guacamoleVersion" : "*",
+    "name" : "Some meaningful, human-readable name",
+    "namespace" : "some-unique-namespace",
+
+    "css" : [
+        "css/login-override.css"
+    ],
+
+    "resources" : [
+        "resources/your-logo.png" : "image/png"
+    ],
+
+    "translations" : [
+        "translations/en.json"
+    ]
+
+}
