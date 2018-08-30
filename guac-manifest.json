@@ -1,5 +1,5 @@
 {
-    "guacamoleVersion" : "0.9.8",
+    "guacamoleVersion" : "*",
     "name" : "TST-Theme",
     "namespace" : "TST",
     "translations" : [
