@@ -1,9 +1,12 @@
 pipeline:
-  setup:
-    image: docker
+  backend:
+    image: golang
     commands:
-      - docker build --rm -t thunderstorm99/guacamole .
-  build:
-    image: thunderstorm99/guacamole
+      - go build
+      - go test
+  frontend:
+    image: node
     commands:
-      - echo hallo
+      - npm install
+      - npm run test
+      - npm run build
